@@ -6,6 +6,10 @@ CECI EST UN COMMENTAIRE
 color: blue;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     color: red;
 }
