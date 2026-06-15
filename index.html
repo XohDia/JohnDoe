@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>John Doe | Graphic Designer</title>
+    <link rel="stylesheet" type="text/css" href="design/style.css">
 </head>
+
+<!-- CORPS DE LA PAGE-->
 <body>
+
+   <!-- comment mettre du CSS dans le code -->
+   <!-- 1: dans ka balise même
+        2: dans le HEAD 
+        3: dans un fichier-->
+
    <!-- ENTETE -->
    <header> 
       <!-- NOM ET PRENOM  -->
@@ -15,23 +24,24 @@
       <h2>Graphic Designer, Illustrator & Front-End developer</h2>
 
       <!-- LOGO -->
-       <img src="pictures/logo.png" />
+       <img src="pictures/logo.png" alt="logo"
+       title="Ceci est mon logo" id="logo" />
    </header>  
    
    <!-- MENU -->
    <nav>
       <ul>
          <li><a href="index.html" title="aller à l'acceuil">Acceuil</a></li>
-         <li><a href="#projets" target="_blank">Projets</a></li>
+         <li><a href="project.html" target="_blank">Projets</a></li>
             <li><a href="#contact"></a>Contact</li>
       </ul> 
    </nav>
 
    <!-- PRESENTATION -->
-   <section> 
+   <section class=""> 
       <h3>Bienvenue</h3>
       <!-- DESCRIPTION -->
-      <p>Je crée des <em>sites web</em> de A à Z. Developpeur Full-Stack <strong>FreeLance</strong></p>
+      <p>Je crée des <em class="bienvenue">sites web</em> de A à Z. Developpeur Full-Stack <strong class="bienvenue">FreeLance</strong></p>
    </section>  
 
    <!-- CONTACT -->

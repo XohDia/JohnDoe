@@ -1,3 +1,23 @@
+/*
+CECI EST UN COMMENTAIRE 
+*/
+
+#logo {
+color: blue;
+}
+
 h1 {
     color: red;
+}
+
+.bienvenue {
+    color: red;
+}
+
+h1, a {
+    color:bisque
+}
+
+p a {
+    color: blue;
 }
